@@ -23,7 +23,7 @@ class HomePageState extends State<HomePage> {
         appBar: AppBar(
           centerTitle: true,
           title: Text(
-            "Superheroes",
+            "Superhéroes",
             style: TextStyle(color: Colors.white),
           ),
           backgroundColor: Colors.lime,
