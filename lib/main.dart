@@ -42,15 +42,15 @@ class HomePageState extends State<HomePage> {
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: <Widget>[
                               Container(
-                                height: 150,
-                                width: 150,
+                                height: 160,
+                                width: 160,
                                 decoration: BoxDecoration(
                                     image: DecorationImage(
                                         image: NetworkImage(
                                             jsonData[index]["image"]))),
                               ),
                               new Text(""),
-                              new Text("Super heroe: " +
+                              new Text("Super héroe: " +
                                   jsonData[index]["superheroe"]),
                               new Text(""),
                               new Text("Nombre: " +
@@ -60,7 +60,7 @@ class HomePageState extends State<HomePage> {
                               new Text(""),
                               new Text("Altura: " + jsonData[index]["altura"]),
                               new Text(""),
-                              new Text("Genero: " + jsonData[index]["genero"]),
+                              new Text("Género: " + jsonData[index]["genero"]),
                               new Text(""),
                               new Text("Descripcion: " +
                                   jsonData[index]["descripcion"]),
